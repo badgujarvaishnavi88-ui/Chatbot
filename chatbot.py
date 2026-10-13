@@ -4,7 +4,7 @@ def get_bot_response(user_input):
     user_input = user_input.lower()
 
     # Greetings
-    if "hello" in user_input or "hi" in user_input:
+    if "hello" in user_input.split() or "hi" in user_input.split():
         return "Hello! How can I help you?"
 
     # Basic info
